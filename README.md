@@ -11,13 +11,13 @@ Prerequisite?
 Running
 -------
 
-When you are in Sylius\docs directory, just run:
+When you are in ``Sylius\docs`` directory, just run:
 
 ```bash
 # Linux
-$ docker run --rm -v $(pwd):/app sylius-documentation-builder
+$ docker run --rm -v $(pwd):/app ghcr.io/arti0090/syliusdocbuilder
 # Windows (powershell)
-$ docker run --rm -v ${pwd}:/app sylius-documentation-builder
+$ docker run --rm -v ${pwd}:/app ghcr.io/arti0090/syliusdocbuilder
 
 ```
 
