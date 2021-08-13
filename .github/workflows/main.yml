@@ -31,5 +31,5 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
           registry: ghcr.io
-          repository: arti0090/SyliusDocumentationBuilder
+          repository: arti0090/syliusdocbuilder
           tag_with_ref: true
